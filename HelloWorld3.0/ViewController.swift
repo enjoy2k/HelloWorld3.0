@@ -18,14 +18,12 @@ class ViewController: UIViewController {
         helloWorldLabel.isHidden = true
         helloWorldLabel.textColor = .systemRed
         showTextButton.layer.cornerRadius = 10
-        showTextButton.titleLabel?.font = UIFont.systemFont(ofSize: 25)
     }
     @IBAction func showTextButtonPressed() {
         helloWorldLabel.isHidden.toggle()
-        
         if helloWorldLabel.isHidden {
             showTextButton.setTitle("Show Text", for: .normal)
-            
+
         } else {
             showTextButton.setTitle("Hide Text", for: .normal)
         }
