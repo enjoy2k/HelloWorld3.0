@@ -17,9 +17,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello, World!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nnS-n7-nmQ">
-                                <rect key="frame" x="68.5" y="108" width="183" height="41"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello, World!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="nnS-n7-nmQ">
+                                <rect key="frame" x="20" y="108" width="280" height="60"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -58,6 +58,7 @@
                         <color key="backgroundColor" systemColor="systemTealColor"/>
                         <constraints>
                             <constraint firstItem="3HH-4q-Tle" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5H8-6Q-Omq"/>
+                            <constraint firstItem="nnS-n7-nmQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="65J-JZ-u5k"/>
                             <constraint firstItem="nnS-n7-nmQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="a3B-Kb-dOK"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="3HH-4q-Tle" secondAttribute="bottom" constant="87" id="agh-UJ-7BR"/>
                             <constraint firstItem="nnS-n7-nmQ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="88" id="ekZ-98-66a"/>
